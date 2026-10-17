@@ -1,0 +1,15 @@
+# Python 运行产物
+__pycache__/
+*.pyc
+
+# 运行时捕获的音频（上鱼触发时保存，供排查用，不入库）
+captures/
+
+# 运行日志
+*.log
+fishing-alert.log
+vibx_keypress.log
+
+# 会话/临时文件
+.env
+*.tmp

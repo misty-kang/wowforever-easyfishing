@@ -1,0 +1,16 @@
+{
+  "_说明": "收杆+自动抛竿。key=收杆(上鱼起竿)，cast=抛竿。与betterfishing一致：起竿=WHEEL_DOWN(下滚交互)，抛竿=WHEEL_UP(上滚钓鱼)。reel_ticks=连滚次数。enable_cast=false 则只收杆。命令行参数优先。",
+  "host": "127.0.0.1",
+  "port": 49778,
+  "key": "WHEEL_DOWN",
+  "cast": "WHEEL_UP",
+  "enable_cast": true,
+  "reel_ticks": 3,
+  "delay_min_ms": 250,
+  "delay_max_ms": 500,
+  "cast_gap_min_ms": 1400,
+  "cast_gap_max_ms": 2200,
+  "hold_ms": 35,
+  "bring_to_front": true,
+  "inject": "sendinput"
+}
